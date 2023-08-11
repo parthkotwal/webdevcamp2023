@@ -1,0 +1,33 @@
+.textClass {
+    color: cornflowerblue;
+}
+
+h1 {
+    position: relative;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h4Class {
+    font-weight: bold;
+    position: sticky;
+    text-align: center;
+    top: 100px;
+}
+
+#h3ID {
+    font-family: fantasy;
+}
+
+.bx {
+    background-color: red;
+    padding: 5px 20px 40px 15px;
+    margin: 20px 30px;
+    border: 2px dashed blue;
+}
+
+.bx p {
+    color: white;
+}

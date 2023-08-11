@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+    <h1 class="textClass">melanie</h1>
+    <h2 class="textClass">pot</h2>
+    <h3 class="textClass" id="h3ID">Chicken</h3>
+    <h3 class="textClass">Where</h3>
+    <h4 class="h4Class textClass">Pic</h4>
+    
+    <img src="4.jpg">
+    <img src="3.jpg">
+    <p>play kindom two crowns now</p>
+    <table>
+        <tr>
+            <td>doge</td>
+            <td>dog</td>
+            
+        </tr>
+    </table>
+    <ol>
+        <li>dsdsdsd</li>
+        <li>gfgfhdfdh</li>
+        <li>gffghsftcdgdsghy5</li>
+    </ol>
+
+    <div class="bx">
+        <p>This is a div</p>
+        <p>Yes</p>
+    </div>
+
+    <div class="container">
+        <div class="slide">
+
+        </div>
+        <div class="slide">
+            
+        </div>
+    </div>
+
+    <i class="fas fa-heart"></i>
+
+    <p>Task 1</p>
+    <input type="email" id="em" value="johndoe@redmondstemcenter.org">
+    <input type="password" id="pas" value="Apple3.14159">
+    <input type="submit" id="submit" onsubmit="checkEmail()"><br>
+    <p id="res"></p>
+
+    <script>
+        function checkEmail() {
+            let email = document.getElementById("em").nodeValue;
+            let pass = document.getElementById("pas").nodeValue;
+            if (email == "johndoe@redmondstemcenter.org" && pass == "Apple3.14159") {
+                document.getElementById("res").innerText = "Correct";
+            } else {
+                document.getElementById("res").innerText = "Wrong";
+            }
+        }
+    </script>
+</body>
+</html>
